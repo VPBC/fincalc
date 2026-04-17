@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://vpbc.github.io/fincalc/</loc><priority>1.0</priority></url>
+  <url><loc>https://vpbc.github.io/fincalc/mortgage-calculator</loc><priority>0.9</priority></url>
+  <url><loc>https://vpbc.github.io/fincalc/compound-interest-calculator</loc><priority>0.9</priority></url>
+  <url><loc>https://vpbc.github.io/fincalc/loan-payoff-calculator</loc><priority>0.9</priority></url>
+  <url><loc>https://vpbc.github.io/fincalc/retirement-calculator</loc><priority>0.9</priority></url>
+  <url><loc>https://vpbc.github.io/fincalc/salary-calculator</loc><priority>0.9</priority></url>
+  <url><loc>https://vpbc.github.io/fincalc/debt-payoff-calculator</loc><priority>0.9</priority></url>
+  <url><loc>https://vpbc.github.io/fincalc/car-loan-calculator</loc><priority>0.9</priority></url>
+  <url><loc>https://vpbc.github.io/fincalc/tip-calculator</loc><priority>0.9</priority></url>
+  <url><loc>https://vpbc.github.io/fincalc/net-worth-calculator</loc><priority>0.9</priority></url>
+  <url><loc>https://vpbc.github.io/fincalc/savings-goal-calculator</loc><priority>0.9</priority></url>
+</urlset>
