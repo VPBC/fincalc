@@ -24,7 +24,7 @@ export default function CarLoanCalculator() {
 
   const totalPaid = monthlyPayment * numPayments;
   const totalInterest = totalPaid - loanAmount;
-  const totalCost = totalPaid + downPayment + tradeIn;
+  const totalOutOfPocket = totalPaid + downPayment;
 
   return (
     <CalculatorShell
@@ -59,7 +59,7 @@ export default function CarLoanCalculator() {
           <ResultCard label="Monthly Payment" value={`$${fmt(Math.round(monthlyPayment))}`} highlight />
           <ResultCard label="Loan Amount" value={`$${fmt(loanAmount)}`} />
           <ResultCard label="Total Interest" value={`$${fmt(Math.round(totalInterest))}`} />
-          <ResultCard label="Total Cost" value={`$${fmt(Math.round(totalCost))}`} />
+          <ResultCard label="Total Out-of-Pocket" value={`$${fmt(Math.round(totalOutOfPocket))}`} />
         </div>
       </div>
     </CalculatorShell>

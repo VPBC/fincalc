@@ -22,7 +22,7 @@ export default function DebtPayoffCalculator() {
       return { months: Infinity, totalInterest: Infinity, totalPaid: Infinity, payable: false };
     }
 
-    while (balance > 0 && months < 600) {
+    while (balance > 0.01 && months < 7200) {
       const interest = balance * monthlyRate;
       totalInterest += interest;
       balance = balance + interest - monthlyBudget;
