@@ -80,8 +80,14 @@ export default function RootLayout({
                 </Link>
               ))}
             </div>
-            <p className="mt-6 text-xs text-gray-400">
-              &copy; {new Date().getFullYear()} FinCalc. Free financial calculators. For informational purposes only — not financial advice. Consult a qualified professional for financial decisions.
+            <div className="mt-6 flex gap-4 text-xs text-gray-400">
+              <Link href="/about" className="hover:text-gray-600">About</Link>
+              <Link href="/contact" className="hover:text-gray-600">Contact</Link>
+              <Link href="/privacy" className="hover:text-gray-600">Privacy Policy</Link>
+              <Link href="/terms" className="hover:text-gray-600">Terms</Link>
+            </div>
+            <p className="mt-2 text-xs text-gray-400">
+              &copy; {new Date().getFullYear()} FinCalc. Free financial calculators. For informational purposes only — not financial advice.
             </p>
           </div>
         </footer>
